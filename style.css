@@ -45,6 +45,9 @@ header{
 	text-transform: uppercase;
 	color: #fff !important;
 	letter-spacing: 2px;
+}
+
+h1, h2, h3, h4, h5, h6, .nav-link{
 	font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,7 +63,6 @@ header{
 }
 
 .intro h3{
-	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -74,7 +76,6 @@ section{
 }
 
 .title{
-	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	color: rgb(100,0,20);
 	text-transform: uppercase;
@@ -123,10 +124,9 @@ section{
 	opacity: 1;
 }
 
-.card-overlay h4{
+.card-overlay h6{
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: 400;
 	letter-spacing: 2px;
 }
 footer{
