@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	animation: softload 1s;
 	text-decoration: none;
@@ -128,6 +130,10 @@ section{
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+}
+
+#contact{
+	transition: .4s linear;
 }
 footer{
 	text-transform: uppercase;
