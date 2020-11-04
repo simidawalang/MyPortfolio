@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
-
+html{
+        scroll-behaviour: smooth;
+}
 body{
 	animation: softload 1s;
 	text-decoration: none;
@@ -10,7 +12,6 @@ body{
 	from{
 		opacity: 0;
 	}
-
 	to{
 		opacity: 1;
 	}
