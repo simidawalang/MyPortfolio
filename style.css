@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
 html{
-<<<<<<< HEAD
 	scroll-behavior: smooth;
-=======
-        scroll-behaviour: smooth;
->>>>>>> 665eef793e80c9d29ee155ec5609d4f0d7af1feb
 }
 body{
 	animation: softload 1s;
