@@ -28,6 +28,10 @@ body{
 	height: 100vh;
 	z-index: 9999;
 }
+
+.preloader img{
+	width: 100px;
+}
 a, a:hover{
 	color: rgb(100,0,20);
 	text-decoration: none;
