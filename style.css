@@ -10,6 +10,7 @@ body{
 
 @keyframes softload{
 	from{
+
 		opacity: 0;
 	}
 	to{
@@ -17,6 +18,16 @@ body{
 	}
 }
 
+.preloader{
+	background-color: #000;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	z-index: 9999;
+}
 a, a:hover{
 	color: rgb(100,0,20);
 	text-decoration: none;
