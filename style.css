@@ -1,11 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
-html{
-	scroll-behavior: smooth;
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
+
+html {
+    scroll-behavior: smooth;
 }
-body{
-	animation: softload 1s;
-	text-decoration: none;
-	font-family: 'Lora', serif;
+body {
+    animation: softload 1s;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 @keyframes softload{
@@ -63,8 +65,9 @@ header{
 	letter-spacing: 2px;
 }
 
-h1, h2, h3, h4, h5, h6, .nav-link{
-	font-family: 'Montserrat', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .intro{
@@ -79,24 +82,19 @@ h1, h2, h3, h4, h5, h6, .nav-link{
 }
 
 .intro h3{
-	font-weight: bold;
 	text-transform: uppercase;
 }
 
-.intro p{
-	font-size: .8rem;
-}
 section{
 	padding: 2rem 0;
 	border-bottom: 1px solid rgb(100,0,20);
 }
 
 .title{
-	font-weight: bold;
 	color: rgb(100,0,20);
 	text-transform: uppercase;
 	text-align: center;
-	font-weight: 400;
+	font-weight: bold;
 	letter-spacing: 2px;
 }
 .skill{
@@ -104,9 +102,9 @@ section{
 	margin: 15px 0;
 }
 .skill-icon{
-	font-size: 50px;
-	color: rgba(100,0,20,.7);
-	margin-right: 20px;
+	font-size: 40px;
+	color: rgb(100,0,20);
+
 }
 
 #contact{
@@ -118,32 +116,15 @@ section{
 	border: none;
 }
 
-.card img{
-	width: 100%;
+.card img {
+    width: 100%;
+    box-shadow: 5px 5px 5px #888888;
+    transition: .2s ease-in-out;
 }
 
-.card-overlay{
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background: rgba(100,0,20,.9);
-	padding: 1rem 1rem;
-	color: #fff;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	opacity: 0;
-	transition: .3s linear;
-}
+.card img:hover {
+    box-shadow: 10px 10px 5px #888888;
 
-.card-overlay:hover{
-	opacity: 1;
-}
-
-.card-overlay h6{
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 }
 
 #contact{
@@ -154,7 +135,7 @@ footer{
 	text-align: center;
 	letter-spacing: 1px;
 	color: #fff;
-	background: rgba(100,0,20);
+	background: rgb(100,0,20);
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
 	font-size: .7rem;
