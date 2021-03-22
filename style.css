@@ -99,7 +99,7 @@ section{
 }
 .skill{
 	align-items: center;
-	margin: 15px 0;
+	
 }
 .skill-icon{
 	font-size: 40px;
@@ -126,6 +126,10 @@ section{
     box-shadow: 10px 10px 5px #888888;
 
 }
+
+    .card h5 {
+        color: rgb(100,0,20);
+    }
 
 #contact{
 	transition: .4s linear;
