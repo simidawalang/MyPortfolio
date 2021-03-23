@@ -61,7 +61,6 @@ header{
 }
 .nav-link{
 	text-transform: uppercase;
-	color: #fff !important;
 	letter-spacing: 2px;
 }
 
@@ -141,7 +140,6 @@ footer{
 	color: #fff;
 	background: rgb(100,0,20);
 	font-family: 'Montserrat', sans-serif;
-	letter-spacing: 1px;
 	font-size: .7rem;
 }
 
