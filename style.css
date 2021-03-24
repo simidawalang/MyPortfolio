@@ -1,13 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300&display=swap');
-
 html {
     scroll-behavior: smooth;
+    background: #ececec;
 }
 body {
     animation: softload 1s;
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
+    background: #eaeaea;
 }
 
 @keyframes softload{
@@ -73,20 +72,30 @@ h1, h2, h3, h4, h5, h6 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	width: 100%;
+	width: 80%;
 	transform: translate(-50%,-50%);
 	color: #fff;
 	text-align: center;
-	letter-spacing: 2px;
 }
 
 .intro h3{
 	text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-section{
-	padding: 2rem 0;
-	border-bottom: 1px solid rgb(100,0,20);
+.intro .role{
+    display: flex;
+    justify-content: center;
+
+}
+section {
+    padding: 2rem 0;
+}
+
+.divisor {
+    width: 100%;
+    height: 2px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, .2), 0 -3px 8px rgba(255, 255, 255, 1);
 }
 
 .title{
@@ -96,16 +105,35 @@ section{
 	font-weight: bold;
 	letter-spacing: 2px;
 }
+
+.col-2{
+    padding: 0;
+    align-items: center;
+}
 .skill{
-	align-items: center;
-	
-}
-.skill-icon{
-	font-size: 40px;
-	color: rgb(100,0,20);
-
+    text-align: center;
+    align-items: center;
 }
 
+.neuromorphic-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, .1), -6px -6px 12px rgba(255, 255, 255, 1);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neuromorphic-icon img, .neuromorphic-icon i{
+    color: rgb(100, 0, 20);
+    font-size: 28px;
+}
+
+.neuromorphic-icon img{
+    width: 28px;
+}
 #contact{
 	text-align: center;
 }
@@ -113,6 +141,7 @@ section{
 /*Portfolio*/
 .card{
 	border: none;
+    background-color: inherit;
 }
 
 .card img {
@@ -126,9 +155,9 @@ section{
 
 }
 
-    .card h5 {
-        color: rgb(100,0,20);
-    }
+.card h5 {
+    color: rgb(100,0,20);
+}
 
 #contact{
 	transition: .4s linear;
@@ -141,6 +170,11 @@ footer{
 	background: rgb(100,0,20);
 	font-family: 'Montserrat', sans-serif;
 	font-size: .7rem;
+}
+
+.email-link{
+    color: rgb(100, 0, 20);
+    font-weight: bold;
 }
 
 
@@ -160,4 +194,17 @@ footer{
 	.nav-link{
 		font-size: .8rem;
 	}
+
+    .neuromorphic-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .neuromorphic-icon i{
+        font-size: 22px;
+    }
+
+     .neuromorphic-icon img{
+         width: 22px;
+     }
 }
