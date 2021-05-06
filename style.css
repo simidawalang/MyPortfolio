@@ -7,6 +7,7 @@ body {
     text-decoration: none;
     font-family: 'Josefin Sans', sans-serif;
     background: #eaeaea;
+    color: #333;
 }
 
 @keyframes softload{
@@ -106,6 +107,12 @@ section {
 	letter-spacing: 2px;
 }
 
+#about{
+    margin-top: 60px;
+    opacity: 0;
+    transition: .6s linear;
+}
+
 .col-2{
     padding: 0;
     align-items: center;
@@ -139,6 +146,13 @@ section {
 }
 
 /*Portfolio*/
+#portfolio{
+    position: relative;
+    left: -10vw;
+    opacity: 0;
+    transition: .6s linear;
+}
+
 .card{
 	border: none;
     background-color: inherit;
