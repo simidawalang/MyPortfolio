@@ -12,7 +12,7 @@ window.addEventListener('scroll', () => {
 
     const scroll = window.scrollY;
 
-    if (scroll >= aboutHeightFromTop - 150) {
+    if (scroll >= aboutHeightFromTop - 200) {
         about.style.marginTop = "0";
         about.style.opacity = "1";
     }
