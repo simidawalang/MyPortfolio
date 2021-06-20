@@ -39,6 +39,9 @@ a, a:hover{
 	text-decoration: none;
 }
 
+.highlighted-text{
+	color: rgba(100,0,20);
+}
 header{
 	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
 	url('img/header.jpg') center no-repeat;
@@ -62,6 +65,8 @@ header{
 .nav-link{
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	font-size: .8rem;
+	font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -119,12 +124,11 @@ section {
 }
 .skill{
     text-align: center;
-    align-items: center;
 }
 
 .neuromorphic-icon {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     box-shadow: 6px 6px 12px rgba(0, 0, 0, .1), -6px -6px 12px rgba(255, 255, 255, 1);
     margin: auto;
@@ -135,17 +139,14 @@ section {
 
 .neuromorphic-icon img, .neuromorphic-icon i{
     color: rgb(100, 0, 20);
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .neuromorphic-icon img{
-    width: 28px;
-}
-#contact{
-	text-align: center;
+    width: 22px;
 }
 
-/*Portfolio*/
+/*Portfolio*/x
 #portfolio{
     position: relative;
     left: -10vw;
@@ -156,10 +157,12 @@ section {
 .card{
 	border: none;
     background-color: inherit;
+	margin-bottom: 20px;
 }
 
 .card img {
     width: 100%;
+	object-fit: cover;
     box-shadow: 5px 5px 5px #888888;
     transition: .2s ease-in-out;
 }
@@ -175,6 +178,7 @@ section {
 
 #contact{
 	transition: .4s linear;
+	text-align: center;
 }
 footer{
 	text-transform: uppercase;
@@ -193,6 +197,11 @@ footer{
 
 
 /*MEDIA QUERIES*/
+@media(min-width: 768px){
+	.card img {
+		height: 160px;
+	}
+}
 
 @media(min-width: 992px){
 	.navbar{
@@ -202,23 +211,18 @@ footer{
 	.nav-link{
 		margin-left: 30px;
 	}
-}
-
-@media(max-width: 576px){
-	.nav-link{
-		font-size: .8rem;
-	}
-
-    .neuromorphic-icon {
+	.neuromorphic-icon {
         width: 40px;
         height: 40px;
     }
-
-    .neuromorphic-icon i{
-        font-size: 22px;
+	.neuromorphic-icon i{
+        font-size: 28px;
     }
+	.neuromorphic-icon img{
+		width: 28px;
+	}
 
-     .neuromorphic-icon img{
-         width: 22px;
-     }
+	.card img {
+		height: 250px;
+	}
 }
