@@ -56,7 +56,7 @@ header{
 	width: 100%;
 }
 
-.navbar-dark .navbar-toggler {
+.navbar-toggler {
 	border: 0;
 }
 
@@ -119,11 +119,6 @@ section {
     margin-top: 60px;
     opacity: 0;
     transition: .6s linear;
-}
-
-.col-2{
-    padding: 0;
-    align-items: center;
 }
 
 .skill-set-container {
@@ -219,6 +214,12 @@ footer{
 
 /*MEDIA QUERIES*/
 @media(min-width: 768px){
+	.intro h1 {
+		font-size: 2rem;
+	}
+	.intro .role {
+		font-size: 1.2rem;
+	}
 	.card img {
 		height: 160px;
 	}
