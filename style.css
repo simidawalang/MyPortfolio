@@ -42,6 +42,7 @@ a, a:hover{
 .highlighted-text{
 	color: rgba(100,0,20);
 }
+
 header{
 	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
 	url('img/header.jpg') center no-repeat;
@@ -53,12 +54,16 @@ header{
 	width: 100%;
 }
 
-@font-face{
+.navbar-dark .navbar-toggler {
+	border: 0;
+}
+
+@font-face {
 	font-family: Santeria;
 	src: url('txt/Santeria.ttf');
 
 }
-.navbar-brand{
+.navbar-brand {
 	font-size: 2rem;
 	font-family: Santeria;
 }
@@ -89,11 +94,6 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 2px;
 }
 
-.intro .role{
-    display: flex;
-    justify-content: center;
-
-}
 section {
     padding: 2rem 0;
 }
@@ -122,8 +122,15 @@ section {
     padding: 0;
     align-items: center;
 }
+
+.skill-set-container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
 .skill{
     text-align: center;
+	width: auto;
 }
 
 .neuromorphic-icon {
@@ -180,6 +187,17 @@ section {
 	transition: .4s linear;
 	text-align: center;
 }
+
+.contact-links-container {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.contact-links {
+	max-width: 300px;
+}
+
 footer{
 	text-transform: uppercase;
 	text-align: center;
