@@ -222,6 +222,10 @@ footer{
 	.card img {
 		height: 160px;
 	}
+	.contact-links {
+		max-width: 100%;
+		display: flex;
+	}
 }
 
 @media(min-width: 992px){
