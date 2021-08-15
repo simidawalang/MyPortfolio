@@ -2,6 +2,7 @@ html {
     scroll-behavior: smooth;
     background: #ececec;
 }
+
 body {
     animation: softload 1s;
     text-decoration: none;
@@ -44,10 +45,11 @@ a, a:hover{
 }
 
 header{
+	height: 100vh;
 	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
 	url('img/header.jpg') center no-repeat;
 	background-size: cover;
-	height: 100vh;
+	background-attachment: fixed;
 }
 .navbar{
 	position: absolute;
@@ -89,7 +91,8 @@ h1, h2, h3, h4, h5, h6 {
 	text-align: center;
 }
 
-.intro h3{
+.intro h1{
+	font-size: 1.5rem;
 	text-transform: uppercase;
     letter-spacing: 2px;
 }
