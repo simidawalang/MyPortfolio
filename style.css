@@ -49,8 +49,8 @@ header{
 	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
 	url('img/header.jpg') center no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
 }
+
 .navbar{
 	position: absolute;
 	width: 100%;
