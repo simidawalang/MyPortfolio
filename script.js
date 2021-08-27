@@ -23,3 +23,17 @@ window.addEventListener('scroll', () => {
     }
 });
 
+// Service Worker and Caching
+
+if(navigator.serviceWorker) {
+    window.addEventListener('load', () => {
+        navigator.serviceWorker
+            .register('./sw_cached_pages.js')
+            .then(() => {
+                console.log(`Service worker registered`)
+            })
+            .catch((e) => {
+                console.log(`Service Worker`)
+            })
+    });
+}

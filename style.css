@@ -40,10 +40,6 @@ a, a:hover{
 	text-decoration: none;
 }
 
-.highlighted-text{
-	color: rgba(100,0,20);
-}
-
 header{
 	height: 100vh;
 	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
