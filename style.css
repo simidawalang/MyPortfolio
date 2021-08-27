@@ -46,7 +46,7 @@ a, a:hover{
 
 header{
 	height: 100vh;
-	background: linear-gradient(rgba(100,0,20,.9),rgba(100,0,20,.9)),
+	background: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,1)),
 	url('img/header.jpg') center no-repeat;
 	background-size: cover;
 }
@@ -63,8 +63,9 @@ header{
 @font-face {
 	font-family: Santeria;
 	src: url('txt/Santeria.ttf');
-
+	font-display: swap;
 }
+
 .navbar-brand {
 	font-size: 2rem;
 	font-family: Santeria;
