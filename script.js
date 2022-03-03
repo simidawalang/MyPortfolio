@@ -17,7 +17,7 @@ window.addEventListener('scroll', () => {
         about.style.opacity = "1";
     }
 
-    if (scroll >= portfolioHeightFromTop - 100) {
+    if (scroll >= portfolioHeightFromTop - 400) {
         portfolio.style.left = "0";
         portfolio.style.opacity = "1";
     }
