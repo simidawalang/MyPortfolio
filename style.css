@@ -99,6 +99,15 @@ h6 {
   letter-spacing: 2px;
 }
 
+.intro i {
+  color: #fff;
+  font-size: 22px;
+}
+
+.intro .role {
+  margin: 0 5px;
+}
+
 section {
   padding: 2rem 0;
 }
@@ -220,7 +229,7 @@ footer {
   .intro h1 {
     font-size: 2rem;
   }
-  .intro .role {
+  .intro .roles {
     font-size: 1.2rem;
   }
   /* .card img {
